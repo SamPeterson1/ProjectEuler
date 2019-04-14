@@ -11,11 +11,11 @@ public class Main {
 		
 		long startTime = System.currentTimeMillis();
 		
-		String solution = p002.getSolution();
+		String solution = p003.getSolution();
 		long deltaTime = System.currentTimeMillis() - startTime;
 		
 		if(solution != null) {
-			if(Checker.isCorrect(2, solution)) {
+			if(Checker.isCorrect(3, solution)) {
 				System.out.println("Correct! Solution: " + solution + " calculated in " + deltaTime + " milliseconds.");
 			} else {
 				System.out.println("Incorrect answer: " + solution);
