@@ -15,7 +15,7 @@ public class p002 {
 			if(a > 4000000) {
 				return String.valueOf(sum);
 			} else if(a % 2 == 0){
-				sum += a;;;
+				sum += a;
 			}
 		}
 		
